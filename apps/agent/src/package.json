@@ -40,7 +40,8 @@
 		"publish": [
 			{
 				"provider": "github",
-				"repo": "ever-gauzy-agent",
+				"owner": "555-Satyajit",
+				"repo": "my-real-estate-crm",
 				"releaseType": "release"
 			}
 		],

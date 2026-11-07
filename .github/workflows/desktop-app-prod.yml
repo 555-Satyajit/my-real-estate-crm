@@ -123,8 +123,8 @@ jobs:
         uses: actions/github-script@v8
         env:
           RELEASE_TAG: ${{ steps.resolve.outputs.tag }}
-          RELEASE_OWNER: 'ever-co'
-          RELEASE_REPO: 'ever-gauzy-desktop'
+          RELEASE_OWNER: '555-Satyajit'
+          RELEASE_REPO: 'my-real-estate-crm'
           RELEASE_TYPE: 'release'
         with:
           # The PAT the build jobs publish with; this job's own GITHUB_TOKEN is read-only.
@@ -287,8 +287,8 @@ jobs:
           GAUZY_RELEASE_TAG: ${{ needs.check-release-tag.outputs.tag }}
           PROJECT_REPO: 'https://github.com/ever-co/ever-gauzy.git'
           DESKTOP_APP_NAME: 'gauzy-desktop'
-          DESKTOP_APP_REPO_NAME: 'ever-gauzy-desktop'
-          DESKTOP_APP_REPO_OWNER: 'ever-co'
+          DESKTOP_APP_REPO_NAME: 'my-real-estate-crm'
+          DESKTOP_APP_REPO_OWNER: '555-Satyajit'
           COMPANY_SITE_LINK: 'https://gauzy.co'
           DESKTOP_APP_DESCRIPTION: 'Gauzy Desktop'
           DESKTOP_APP_ID: 'com.ever.gauzydesktop'
@@ -301,7 +301,7 @@ jobs:
         # Snap Store channel: prod ('apps') releases to 'stable', stage ('stage-apps') to 'edge' (the
         # electron-builder default). yarn appends these flags to the script's last command, the
         # electron-builder call. Override snap.publish only: a -c.publish override lands in the GitHub entry.
-        run: 'yarn build:desktop:linux:release:gh:x64 -c.snap.publish.provider=snapStore -c.snap.publish.channels=stable'
+        run: 'yarn build:desktop:linux:release:gh:x64'
         env:
           USE_HARD_LINKS: false
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -578,8 +578,8 @@ jobs:
           GAUZY_RELEASE_TAG: ${{ needs.check-release-tag.outputs.tag }}
           PROJECT_REPO: 'https://github.com/ever-co/ever-gauzy.git'
           DESKTOP_APP_NAME: 'gauzy-desktop'
-          DESKTOP_APP_REPO_NAME: 'ever-gauzy-desktop'
-          DESKTOP_APP_REPO_OWNER: 'ever-co'
+          DESKTOP_APP_REPO_NAME: 'my-real-estate-crm'
+          DESKTOP_APP_REPO_OWNER: '555-Satyajit'
           COMPANY_SITE_LINK: 'https://gauzy.co'
           DESKTOP_APP_DESCRIPTION: 'Gauzy Desktop'
           DESKTOP_APP_ID: 'com.ever.gauzydesktop'
@@ -622,7 +622,7 @@ jobs:
         # Snap Store channel: prod ('apps') releases to 'stable', stage ('stage-apps') to 'edge' (the
         # electron-builder default). yarn appends these flags to the script's last command, the
         # electron-builder call. Override snap.publish only: a -c.publish override lands in the GitHub entry.
-        run: 'yarn build:desktop:linux:release:gh:arm64 -c.snap.publish.provider=snapStore -c.snap.publish.channels=stable'
+        run: 'yarn build:desktop:linux:release:gh:arm64'
         env:
           USE_HARD_LINKS: false
           USE_SYSTEM_FPM: true
@@ -805,8 +805,8 @@ jobs:
           GAUZY_RELEASE_TAG: ${{ needs.check-release-tag.outputs.tag }}
           PROJECT_REPO: 'https://github.com/ever-co/ever-gauzy.git'
           DESKTOP_APP_NAME: 'gauzy-desktop'
-          DESKTOP_APP_REPO_NAME: 'ever-gauzy-desktop'
-          DESKTOP_APP_REPO_OWNER: 'ever-co'
+          DESKTOP_APP_REPO_NAME: 'my-real-estate-crm'
+          DESKTOP_APP_REPO_OWNER: '555-Satyajit'
           COMPANY_SITE_LINK: 'https://gauzy.co'
           DESKTOP_APP_DESCRIPTION: 'Gauzy Desktop'
           DESKTOP_APP_ID: 'com.ever.gauzydesktop'
@@ -887,8 +887,8 @@ jobs:
         uses: ./.github/actions/set-mac-minimum-system-version
         with:
           token: ${{ secrets.GH_TOKEN }}
-          owner: 'ever-co'
-          repo: 'ever-gauzy-desktop'
+          owner: '555-Satyajit'
+          repo: 'my-real-estate-crm'
           tag: ${{ needs.check-release-tag.outputs.tag }}
           app-package-json: 'apps/desktop/src/package.json'
 
@@ -1142,8 +1142,8 @@ jobs:
           GAUZY_RELEASE_TAG: ${{ needs.check-release-tag.outputs.tag }}
           PROJECT_REPO: 'https://github.com/ever-co/ever-gauzy.git'
           DESKTOP_APP_NAME: 'gauzy-desktop'
-          DESKTOP_APP_REPO_NAME: 'ever-gauzy-desktop'
-          DESKTOP_APP_REPO_OWNER: 'ever-co'
+          DESKTOP_APP_REPO_NAME: 'my-real-estate-crm'
+          DESKTOP_APP_REPO_OWNER: '555-Satyajit'
           COMPANY_SITE_LINK: 'https://gauzy.co'
           DESKTOP_APP_DESCRIPTION: 'Gauzy Desktop'
           DESKTOP_APP_ID: 'com.ever.gauzydesktop'
@@ -1505,8 +1505,8 @@ jobs:
           GAUZY_RELEASE_TAG: ${{ needs.check-release-tag.outputs.tag }}
           PROJECT_REPO: 'https://github.com/ever-co/ever-gauzy.git'
           DESKTOP_APP_NAME: 'gauzy-desktop'
-          DESKTOP_APP_REPO_NAME: 'ever-gauzy-desktop'
-          DESKTOP_APP_REPO_OWNER: 'ever-co'
+          DESKTOP_APP_REPO_NAME: 'my-real-estate-crm'
+          DESKTOP_APP_REPO_OWNER: '555-Satyajit'
           COMPANY_SITE_LINK: 'https://gauzy.co'
           DESKTOP_APP_DESCRIPTION: 'Gauzy Desktop'
           DESKTOP_APP_ID: 'com.ever.gauzydesktop'
