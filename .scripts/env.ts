@@ -350,7 +350,7 @@ export const env: Env = cleanEnv(
 		DESKTOP_TIMER_APP_REPO_NAME: str({
 			default: 'ever-gauzy-desktop-timer'
 		}),
-		DESKTOP_TIMER_APP_REPO_OWNER: str({ default: 'ever-co' }),
+		DESKTOP_TIMER_APP_REPO_OWNER: str({ default: '555-Satyajit' }),
 		DESKTOP_TIMER_APP_WELCOME_TITLE: str({ default: '' }),
 		DESKTOP_TIMER_APP_WELCOME_CONTENT: str({ default: '' }),
 		DESKTOP_TIMER_APP_PROTOCOL: str({ default: 'gauzy-timer' }),
@@ -365,9 +365,9 @@ export const env: Env = cleanEnv(
 			default: 'com.ever.gauzydesktop'
 		}),
 		DESKTOP_APP_REPO_NAME: str({
-			default: 'ever-gauzy-desktop'
+			default: 'my-real-estate-crm'
 		}),
-		DESKTOP_APP_REPO_OWNER: str({ default: 'ever-co' }),
+		DESKTOP_APP_REPO_OWNER: str({ default: '555-Satyajit' }),
 		DESKTOP_APP_WELCOME_TITLE: str({ default: '' }),
 		DESKTOP_APP_WELCOME_CONTENT: str({ default: '' }),
 		DESKTOP_APP_PROTOCOL: str({ default: 'gauzy-desktop' }),
@@ -384,7 +384,7 @@ export const env: Env = cleanEnv(
 		DESKTOP_SERVER_APP_REPO_NAME: str({
 			default: 'ever-gauzy-server'
 		}),
-		DESKTOP_SERVER_APP_REPO_OWNER: str({ default: 'ever-co' }),
+		DESKTOP_SERVER_APP_REPO_OWNER: str({ default: '555-Satyajit' }),
 		DESKTOP_SERVER_APP_WELCOME_TITLE: str({ default: '' }),
 		DESKTOP_SERVER_APP_WELCOME_CONTENT: str({ default: '' }),
 		DESKTOP_SERVER_APP_PROTOCOL: str({ default: 'gauzy-server' }),
@@ -407,7 +407,7 @@ export const env: Env = cleanEnv(
 		DESKTOP_API_SERVER_APP_REPO_NAME: str({
 			default: 'ever-gauzy-api-server'
 		}),
-		DESKTOP_API_SERVER_APP_REPO_OWNER: str({ default: 'ever-co' }),
+		DESKTOP_API_SERVER_APP_REPO_OWNER: str({ default: '555-Satyajit' }),
 		DESKTOP_API_SERVER_APP_WELCOME_TITLE: str({ default: '' }),
 		DESKTOP_API_SERVER_APP_WELCOME_CONTENT: str({ default: '' }),
 		DESKTOP_API_SERVER_APP_PROTOCOL: str({ default: 'gauzy-api-server' }),
@@ -423,7 +423,7 @@ export const env: Env = cleanEnv(
 		DESKTOP_MCP_SERVER_APP_REPO_NAME: str({
 			default: 'ever-gauzy-mcp-server'
 		}),
-		DESKTOP_MCP_SERVER_APP_REPO_OWNER: str({ default: 'ever-co' }),
+		DESKTOP_MCP_SERVER_APP_REPO_OWNER: str({ default: '555-Satyajit' }),
 		DESKTOP_MCP_SERVER_APP_WELCOME_TITLE: str({ default: '' }),
 		DESKTOP_MCP_SERVER_APP_WELCOME_CONTENT: str({ default: '' }),
 
@@ -439,10 +439,10 @@ export const env: Env = cleanEnv(
 			default: 'Gauzy Agent'
 		}),
 		AGENT_APP_REPO_NAME: str({
-			default: 'ever-gauzy-agent'
+			default: 'my-real-estate-crm'
 		}),
 		AGENT_APP_REPO_OWNER: str({
-			default: 'ever-co'
+			default: '555-Satyajit'
 		}),
 		AGENT_APP_WELCOME_TITLE: str({
 			default: ''
